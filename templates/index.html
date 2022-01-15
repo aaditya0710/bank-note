@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictor</title>
+</head>
+<body>
+    <form action="{{url_for('predict')}}" method="post">
+    <input type="number" name="skewness"> Enter skewness   </input>
+    <br>
+    <input type="number" name="variance"> Enter variance   </input>
+    <br>
+    <input type="number" name="curtosis"> Enter curtosis   </input>
+    <br>
+    <input type="number" name="entropy"> Enter entropy   </input>
+    <br>
+    <input type="submit">  </input>
+</form>
+</body>
+</html>

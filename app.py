@@ -1,4 +1,3 @@
-from statistics import variance
 from flask import Flask,render_template,request,url_for,request
 import joblib
 
